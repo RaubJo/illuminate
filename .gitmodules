@@ -1,11 +1,11 @@
 [submodule "Container"]
 	path = Container
-	url = ./Container
+	url = https://github.com/RaubJo/illuminate-container
 
 [submodule "Contracts"]
 	path = Contracts
-	url = ./Contracts
+	url = https://github.com/RaubJo/illuminate-contracts
 
 [submodule "Support"]
 	path = Support
-	url = ./Support
+	url = https://github.com/RaubJo/illuminate-support
