@@ -4,7 +4,7 @@ version = 4
 
 [[package]]
 name = "illuminate"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "illuminate-container",
  "illuminate-contracts",

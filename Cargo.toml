@@ -1,6 +1,6 @@
 [package]
 name = "illuminate"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["joseph@raubstudios.com"]
 description = "A Laravel inspired crate"
@@ -12,9 +12,9 @@ crate-type = ["lib"]
 path = "src/Illuminate/lib.rs"
 
 [dependencies]
-illuminate-support = { path = "Support"}
-illuminate-container = { path = "Container"}
-illuminate-contracts = { path = "Contracts"}
+illuminate-support = { path = "Support", version = "0.1.0"}
+illuminate-container = { path = "Container", version = "0.1.0"}
+illuminate-contracts = { path = "Contracts", version = "0.1.0"}
 
 [workspace]
 members = ["Support", "Container", "Contracts"]
