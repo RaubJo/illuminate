@@ -1,0 +1,11 @@
+[submodule "Container"]
+	path = Container
+	url = ./Container
+
+[submodule "Contracts"]
+	path = Contracts
+	url = ./Contracts
+
+[submodule "Support"]
+	path = Support
+	url = ./Support

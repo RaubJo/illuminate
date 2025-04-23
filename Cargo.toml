@@ -1,0 +1,23 @@
+[package]
+name = "illuminate"
+version = "0.1.0"
+edition = "2024"
+authors = ["joseph@raubstudios.com"]
+description = "A Laravel inspired crate"
+license = "MIT"
+
+[lib]
+name = "illuminate"
+crate-type = ["lib"]
+path = "src/Illuminate/lib.rs"
+
+[dependencies]
+illuminate-support = { path = "Support"}
+illuminate-container = { path = "Container"}
+illuminate-contracts = { path = "Contracts"}
+
+[workspace]
+members = ["Support", "Container", "Contracts"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
